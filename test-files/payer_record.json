@@ -1,0 +1,79 @@
+{
+    "version": "1.0",
+    "source": "DataFlowRouter",
+    "eventType": "DataChangeEvent",
+    "correlationId": "2U1UnUWjnxmTcGny2J8CVgUyeEu",
+    "details": {
+        "eventSource": "aws:sqs",
+        "eventSourceArn": "arn:aws:sqs:us-west-2:904442064295:main-DataFlowRouterFunctions-queue",
+        "awsRegion": "us-west-2",
+        "curantisEvent": {
+            "awsRegion": "us-west-2",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1692106744,
+                "Keys": {
+                    "PK": { "S": "TENANT#701082#PAYER" },
+                    "SK": { "S": "PAYER#877866" }
+                },
+                "NewImage": {
+                    "AuthorizationRequired": { "BOOL": false },
+                    "BenefitType": { "S": "HOSPICE" },
+                    "PK": { "S": "TENANT#701082#PAYER" },
+                    "PayerId": { "S": "877866" },
+                    "PayerName": { "S": "Medicare A" },
+                    "PayerSubtype": { "S": "MA" },
+                    "PayerType": { "S": "MEDICARE" },
+                    "Plans": {
+                        "L": [
+                            {
+                                "M": {
+                                    "Address1": { "S": "100 Avenue A" },
+                                    "City": { "S": "Norman" },
+                                    "PlanName": { "S": "Medicare A" },
+                                    "State": { "S": "OK" },
+                                    "ZipCode": { "S": "73071" },
+                                    "ZipCodeExtension": { "S": "4567" }
+                                }
+                            }
+                        ]
+                    },
+                    "SK": { "S": "PAYER#877866" },
+                    "TenantId": { "N": "701082" }
+                },
+                "OldImage": {
+                    "AuthorizationRequired": { "BOOL": false },
+                    "BenefitType": { "S": "HOSPICE" },
+                    "PK": { "S": "TENANT#701082#PAYER" },
+                    "PayerId": { "S": "877866" },
+                    "PayerName": { "S": "Medicare A" },
+                    "PayerSubtype": { "S": "MA" },
+                    "PayerType": { "S": "MEDICARE" },
+                    "Plans": {
+                        "L": [
+                            {
+                                "M": {
+                                    "Address1": { "S": "100 Avenue A" },
+                                    "City": { "S": "Norman" },
+                                    "PlanName": { "S": "Medicare A" },
+                                    "State": { "S": "OK" },
+                                    "ZipCode": { "S": "73071" },
+                                    "ZipCodeExtension": { "S": "1234" }
+                                }
+                            }
+                        ]
+                    },
+                    "SK": { "S": "PAYER#877866" },
+                    "TenantId": { "N": "701082" }
+                },
+                "SequenceNumber": "1469678300000000033415882830",
+                "SizeBytes": 545,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventID": "a170d3f866a2fcbaf6f94910cae674c5",
+            "eventName": "MODIFY",
+            "eventSource": "aws:dynamodb",
+            "eventSourceARN": "arn:aws:dynamodb:us-west-2:904442064295:table/PatientBenefits/stream/2022-10-10T19:37:07.851",
+            "eventVersion": "1.1"
+        }
+    }
+}

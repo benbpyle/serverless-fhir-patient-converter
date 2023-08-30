@@ -1,0 +1,245 @@
+[
+    {
+        "record": {
+            "awsRegion": "us-west-2",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1692401021,
+                "Keys": {
+                    "PK": {
+                        "S": "TENANT#697190#PATIENTCHART#41795"
+                    },
+                    "SK": {
+                        "S": "BENEFITS#16512d59-5317-4d17-8c8d-ceeb19f5807d"
+                    }
+                },
+                "NewImage": {
+                    "HospiceEligibility": {
+                        "M": {
+                            "HospiceBenefitElectionDate": {
+                                "S": "2023-08-01"
+                            },
+                            "RoutineHomeCareHighDaysUsed": {
+                                "NULL": true
+                            },
+                            "AdmitBenefitPeriod": {
+                                "N": "1"
+                            },
+                            "PreviousHospiceStartDate": {
+                                "NULL": true
+                            },
+                            "PreviousHospiceDischargeDate": {
+                                "NULL": true
+                            },
+                            "DateOfFinalBill": {
+                                "NULL": true
+                            },
+                            "AdmitBenefitPeriodStartDate": {
+                                "S": "2023-08-01"
+                            }
+                        }
+                    },
+                    "Financial": {
+                        "M": {
+                            "Deductible": {
+                                "NULL": true
+                            },
+                            "LimitAmount": {
+                                "NULL": true
+                            },
+                            "MaxVisit": {
+                                "NULL": true
+                            },
+                            "CoPay": {
+                                "NULL": true
+                            }
+                        }
+                    },
+                    "ReasonForHold": {
+                        "NULL": true
+                    },
+                    "EligibilityVerified": {
+                        "BOOL": true
+                    },
+                    "PayerPrimacyLevel": {
+                        "S": "PRIMARY"
+                    },
+                    "Subscriber": {
+                        "M": {
+                            "DateOfBirth": {
+                                "NULL": true
+                            },
+                            "AdditionalInfo": {
+                                "NULL": true
+                            },
+                            "FirstName": {
+                                "S": "Patient_1690384446561"
+                            },
+                            "ZipCode": {
+                                "NULL": true
+                            },
+                            "GroupNumber": {
+                                "S": "123456789A"
+                            },
+                            "Address2": {
+                                "NULL": true
+                            },
+                            "Address1": {
+                                "NULL": true
+                            },
+                            "City": {
+                                "NULL": true
+                            },
+                            "EmailAddress": {
+                                "NULL": true
+                            },
+                            "ZipCodeExtension": {
+                                "NULL": true
+                            },
+                            "MiddleInitial": {
+                                "NULL": true
+                            },
+                            "State": {
+                                "NULL": true
+                            },
+                            "SubscriberId": {
+                                "NULL": true
+                            },
+                            "Relationship": {
+                                "S": "SELF"
+                            },
+                            "PhoneNumber": {
+                                "NULL": true
+                            },
+                            "LastName": {
+                                "S": "Patient_1690384446561"
+                            },
+                            "IsVBID": {
+                                "BOOL": true
+                            }
+                        }
+                    },
+                    "Status": {
+                        "S": "ACTIVE"
+                    },
+                    "Authorizations": {
+                        "NULL": true
+                    },
+                    "ReadyToBill": {
+                        "S": "No"
+                    },
+                    "ChangesHistory": {
+                        "NULL": true
+                    },
+                    "UpdatedDatetime": {
+                        "S": "2023-08-14T20:20:45.566268442Z"
+                    },
+                    "SK": {
+                        "S": "BENEFITS#ddc397cf-1ae3-4faa-9b38-f298232d8d01"
+                    },
+                    "CreatedDatetime": {
+                        "S": "2023-08-14T20:20:45.566268442Z"
+                    },
+                    "ExpiredDate": {
+                        "NULL": true
+                    },
+                    "BenefitType": {
+                        "S": "HOSPICE"
+                    },
+                    "BenefitsVersion": {
+                        "N": "1"
+                    },
+                    "PayerName": {
+                        "S": "DEV Medicare A"
+                    },
+                    "BenefitsId": {
+                        "S": "ddc397cf-1ae3-4faa-9b38-f298232d8d01"
+                    },
+                    "PayerType": {
+                        "S": "MEDICARE"
+                    },
+                    "RoomAndBoardEligibility": {
+                        "M": {
+                            "PatientLiability": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "FromDate": {
+                                                "NULL": true
+                                            },
+                                            "ToDate": {
+                                                "NULL": true
+                                            },
+                                            "LiabilityAmount": {
+                                                "N": "0"
+                                            },
+                                            "PatientLiability": {
+                                                "BOOL": true
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "AdmitBenefitPeriod": {
+                                "NULL": true
+                            },
+                            "AdmitBenefitPeriodStartDate": {
+                                "NULL": true
+                            }
+                        }
+                    },
+                    "TenantId": {
+                        "N": "697190"
+                    },
+                    "PK": {
+                        "S": "TENANT#697190#PATIENTCHART#41783"
+                    },
+                    "EffectiveDate": {
+                        "S": "2023-08-01"
+                    },
+                    "PayerId": {
+                        "S": "745903"
+                    },
+                    "PatientChartId": {
+                        "N": "41783"
+                    },
+                    "Plan": {
+                        "M": {
+                            "Address1": {
+                                "S": "100 Avenue A"
+                            },
+                            "City": {
+                                "S": "Norman"
+                            },
+                            "PlanName": {
+                                "S": "Medicare A"
+                            },
+                            "State": {
+                                "S": "OK"
+                            },
+                            "ZipCode": {
+                                "S": "73071"
+                            },
+                            "ZipCodeExtension": {
+                                "S": "1234"
+                            }
+                        }
+                    },
+                    "SubmittedClaims": {
+                        "NULL": true
+                    },
+                    "PatientId": {
+                        "N": "203267"
+                    }
+                },
+                "SequenceNumber": "1485606500000000023139150058",
+                "SizeBytes": 1432,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventID": "58f9c2d3098206d2b2ff0b06fc26b6f8",
+            "eventName": "INSERT",
+            "eventSource": "aws:dynamodb",
+            "eventSourceARN": "arn:aws:dynamodb:us-west-2:904442064295:table/PatientBenefits/stream/2022-10-10T19:37:07.851",
+            "eventVersion": "1.1"
+        }
+    }
+]

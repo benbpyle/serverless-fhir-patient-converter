@@ -1,0 +1,21 @@
+{
+    "BenefitType": "HOSPICE",
+    "AuthorizationRequired": false,
+    "PayerSubtype": "CI",
+    "PayerType": "COMMERCIAL",
+    "Plans": [
+        {
+            "Address1": "P.O. Box 419169",
+            "City": "Kansas City",
+            "PlanName": "Independence BCBS",
+            "State": "MO",
+            "ZipCode": "64141",
+            "ZipCodeExtension": ""
+        }
+    ],
+    "SK": "PAYER#790956",
+    "TenantId": 570656,
+    "PayerName": "All Savers UHC Choice Plus",
+    "PK": "TENANT#570656#PAYER",
+    "PayerId": "790956"
+}

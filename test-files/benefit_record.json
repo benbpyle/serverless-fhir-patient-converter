@@ -1,0 +1,195 @@
+{
+    "version": "1.0",
+    "source": "DataFlowRouter",
+    "eventType": "DataChangeEvent",
+    "correlationId": "2TzIrB2dCo5013mmXRytvkBAYQU",
+    "details": {
+        "eventSource": "aws:sqs",
+        "eventSourceArn": "arn:aws:sqs:us-west-2:904442064295:main-DataFlowRouterFunctions-queue",
+        "awsRegion": "us-west-2",
+        "curantisEvent": {
+            "awsRegion": "us-west-2",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1692039676,
+                "Keys": {
+                    "PK": { "S": "TENANT#697190#PATIENTCHART#41541" },
+                    "SK": {
+                        "S": "BENEFITS#80df0ca5-6bdd-4215-a5c7-29f5f06d35ea"
+                    }
+                },
+                "NewImage": {
+                    "Authorizations": { "NULL": true },
+                    "BenefitType": { "S": "HOSPICE" },
+                    "BenefitsId": {
+                        "S": "80df0ca5-6bdd-4215-a5c7-29f5f06d35ea"
+                    },
+                    "BenefitsVersion": { "N": "1" },
+                    "ChangesHistory": { "NULL": true },
+                    "CreatedDatetime": {
+                        "S": "2023-03-03T14:01:50.162238037Z"
+                    },
+                    "EffectiveDate": { "S": "2023-02-01" },
+                    "ExpiredDate": { "NULL": true },
+                    "Financial": {
+                        "M": {
+                            "CoPay": { "NULL": true },
+                            "Deductible": { "NULL": true },
+                            "LimitAmount": { "NULL": true },
+                            "MaxVisit": { "NULL": true }
+                        }
+                    },
+                    "HospiceEligibility": {
+                        "M": {
+                            "AdmitBenefitPeriod": { "N": "1" },
+                            "AdmitBenefitPeriodStartDate": {
+                                "S": "2023-02-01"
+                            },
+                            "DateOfFinalBill": { "NULL": true },
+                            "HospiceBenefitElectionDate": { "S": "2023-02-01" },
+                            "LastRevocationDate": { "NULL": true },
+                            "PreviousHospiceDischargeDate": { "NULL": true },
+                            "PreviousHospiceStartDate": { "NULL": true },
+                            "RoutineHomeCareHighDaysUsed": { "N": "0" }
+                        }
+                    },
+                    "PK": { "S": "TENANT#697190#PATIENTCHART#41541" },
+                    "PatientChartId": { "N": "41541" },
+                    "PatientId": { "N": "203025" },
+                    "PayerId": { "S": "745903" },
+                    "PayerName": { "S": "DEV Medicare A" },
+                    "PayerPrimacyLevel": { "S": "PRIMARY" },
+                    "PayerType": { "S": "MEDICARE" },
+                    "Plan": {
+                        "M": {
+                            "Address1": { "S": "100 Avenue A" },
+                            "City": { "S": "Norman" },
+                            "PlanName": { "S": "Medicare A" },
+                            "State": { "S": "OK" },
+                            "ZipCode": { "S": "73071" },
+                            "ZipCodeExtension": { "S": "1234" }
+                        }
+                    },
+                    "ReadyToBill": { "S": "Yes" },
+                    "ReasonForHold": { "NULL": true },
+                    "SK": {
+                        "S": "BENEFITS#80df0ca5-6bdd-4215-a5c7-29f5f06d35ea"
+                    },
+                    "Status": { "S": "ACTIVE" },
+                    "SubmittedClaims": { "NULL": true },
+                    "Subscriber": {
+                        "M": {
+                            "AdditionalInfo": { "NULL": true },
+                            "Address1": { "S": "123 dallas" },
+                            "Address2": { "NULL": true },
+                            "City": { "S": "dallas" },
+                            "DateOfBirth": { "S": "2000-11-01" },
+                            "EmailAddress": { "S": "mail@mail.com" },
+                            "FirstName": { "S": "Nick a" },
+                            "GroupNumber": { "NULL": true },
+                            "LastName": { "S": "Kertzmann" },
+                            "MiddleInitial": { "S": "M" },
+                            "PhoneNumber": { "S": "7895545555" },
+                            "Relationship": { "S": "SELF" },
+                            "State": { "S": "OK" },
+                            "SubscriberId": { "S": "9AA9AA9AA99" },
+                            "ZipCode": { "S": "73071" },
+                            "ZipCodeExtension": { "NULL": true }
+                        }
+                    },
+                    "TenantId": { "N": "697190" },
+                    "UpdatedDatetime": { "S": "2023-03-03T14:01:50.162238037Z" }
+                },
+                "OldImage": {
+                    "Authorizations": { "NULL": true },
+                    "BenefitType": { "S": "HOSPICE" },
+                    "BenefitsId": {
+                        "S": "80df0ca5-6bdd-4215-a5c7-29f5f06d35ea"
+                    },
+                    "BenefitsVersion": { "N": "1" },
+                    "ChangesHistory": { "NULL": true },
+                    "CreatedDatetime": {
+                        "S": "2023-03-03T14:01:50.162238037Z"
+                    },
+                    "EffectiveDate": { "S": "2023-02-01" },
+                    "ExpiredDate": { "NULL": true },
+                    "Financial": {
+                        "M": {
+                            "CoPay": { "NULL": true },
+                            "Deductible": { "NULL": true },
+                            "LimitAmount": { "NULL": true },
+                            "MaxVisit": { "NULL": true }
+                        }
+                    },
+                    "HospiceEligibility": {
+                        "M": {
+                            "AdmitBenefitPeriod": { "N": "1" },
+                            "AdmitBenefitPeriodStartDate": {
+                                "S": "2023-02-01"
+                            },
+                            "DateOfFinalBill": { "NULL": true },
+                            "HospiceBenefitElectionDate": { "S": "2023-02-01" },
+                            "LastRevocationDate": { "NULL": true },
+                            "PreviousHospiceDischargeDate": { "NULL": true },
+                            "PreviousHospiceStartDate": { "NULL": true },
+                            "RoutineHomeCareHighDaysUsed": { "N": "0" }
+                        }
+                    },
+                    "PK": { "S": "TENANT#697190#PATIENTCHART#41541" },
+                    "PatientChartId": { "N": "41541" },
+                    "PatientId": { "N": "203025" },
+                    "PayerId": { "S": "745903" },
+                    "PayerName": { "S": "DEV Medicare A" },
+                    "PayerPrimacyLevel": { "S": "PRIMARY" },
+                    "PayerType": { "S": "MEDICARE" },
+                    "Plan": {
+                        "M": {
+                            "Address1": { "S": "100 Avenue A" },
+                            "City": { "S": "Norman" },
+                            "PlanName": { "S": "Medicare A" },
+                            "State": { "S": "OK" },
+                            "ZipCode": { "S": "73071" },
+                            "ZipCodeExtension": { "S": "1234" }
+                        }
+                    },
+                    "ReadyToBill": { "S": "Yes" },
+                    "ReasonForHold": { "NULL": true },
+                    "SK": {
+                        "S": "BENEFITS#80df0ca5-6bdd-4215-a5c7-29f5f06d35ea"
+                    },
+                    "Status": { "S": "ACTIVE" },
+                    "SubmittedClaims": { "NULL": true },
+                    "Subscriber": {
+                        "M": {
+                            "AdditionalInfo": { "NULL": true },
+                            "Address1": { "S": "123 dallas" },
+                            "Address2": { "NULL": true },
+                            "City": { "S": "dallas" },
+                            "DateOfBirth": { "S": "2000-11-01" },
+                            "EmailAddress": { "S": "mail@mail.com" },
+                            "FirstName": { "S": "Nick" },
+                            "GroupNumber": { "NULL": true },
+                            "LastName": { "S": "Kertzmann" },
+                            "MiddleInitial": { "S": "M" },
+                            "PhoneNumber": { "S": "7895545555" },
+                            "Relationship": { "S": "SELF" },
+                            "State": { "S": "OK" },
+                            "SubscriberId": { "S": "9AA9AA9AA99" },
+                            "ZipCode": { "S": "73071" },
+                            "ZipCodeExtension": { "NULL": true }
+                        }
+                    },
+                    "TenantId": { "N": "697190" },
+                    "UpdatedDatetime": { "S": "2023-03-03T14:01:50.162238037Z" }
+                },
+                "SequenceNumber": "1465870300000000056764597101",
+                "SizeBytes": 2413,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventID": "88ec2bd4c2d16c03306a3469c4769cdf",
+            "eventName": "MODIFY",
+            "eventSource": "aws:dynamodb",
+            "eventSourceARN": "arn:aws:dynamodb:us-west-2:904442064295:table/PatientBenefits/stream/2022-10-10T19:37:07.851",
+            "eventVersion": "1.1"
+        }
+    }
+}

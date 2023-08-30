@@ -1,0 +1,268 @@
+[
+    {
+        "body": {
+            "awsRegion": "us-west-2",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1692197200,
+                "Keys": {
+                    "PK": {
+                        "S": "TENANT#570656#PAYER"
+                    },
+                    "SK": {
+                        "S": "PAYER#730127"
+                    }
+                },
+                "NewImage": {
+                    "AuthorizationRequired": {
+                        "BOOL": false
+                    },
+                    "BenefitType": {
+                        "S": "HOSPICE"
+                    },
+                    "PK": {
+                        "S": "TENANT#570656#PAYER"
+                    },
+                    "PayerId": {
+                        "S": "730127"
+                    },
+                    "PayerName": {
+                        "S": "United Healthcare"
+                    },
+                    "PayerSubtype": {
+                        "S": "CI"
+                    },
+                    "PayerType": {
+                        "S": "COMMERCIAL"
+                    },
+                    "Plans": {
+                        "L": [
+                            {
+                                "M": {
+                                    "Address1": {
+                                        "S": "PO Box 30555"
+                                    },
+                                    "City": {
+                                        "S": "Salt Lake CityA"
+                                    },
+                                    "PlanName": {
+                                        "S": "PO Box 30555"
+                                    },
+                                    "State": {
+                                        "S": "UT"
+                                    },
+                                    "ZipCode": {
+                                        "S": "84130"
+                                    },
+                                    "ZipCodeExtension": {
+                                        "S": ""
+                                    }
+                                }
+                            },
+                            {
+                                "M": {
+                                    "Address1": {
+                                        "S": "PO Box 30551"
+                                    },
+                                    "City": {
+                                        "S": "Salt Lake City"
+                                    },
+                                    "PlanName": {
+                                        "S": "PO Box 30551"
+                                    },
+                                    "State": {
+                                        "S": "UT"
+                                    },
+                                    "ZipCode": {
+                                        "S": "84130"
+                                    },
+                                    "ZipCodeExtension": {
+                                        "S": ""
+                                    }
+                                }
+                            },
+                            {
+                                "M": {
+                                    "Address1": {
+                                        "S": "P.O. Box 30541"
+                                    },
+                                    "City": {
+                                        "S": "Salt Lake City"
+                                    },
+                                    "PlanName": {
+                                        "S": "UMR-UHC PPO"
+                                    },
+                                    "State": {
+                                        "S": "UT"
+                                    },
+                                    "ZipCode": {
+                                        "S": "84130"
+                                    },
+                                    "ZipCodeExtension": {
+                                        "S": ""
+                                    }
+                                }
+                            },
+                            {
+                                "M": {
+                                    "Address1": {
+                                        "S": "P.O. Box 740800"
+                                    },
+                                    "City": {
+                                        "S": "Atlanta"
+                                    },
+                                    "PlanName": {
+                                        "S": "UHC Atlanta"
+                                    },
+                                    "State": {
+                                        "S": "GA"
+                                    },
+                                    "ZipCode": {
+                                        "S": "30374"
+                                    },
+                                    "ZipCodeExtension": {
+                                        "S": ""
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "SK": {
+                        "S": "PAYER#730127"
+                    },
+                    "TenantId": {
+                        "N": "570656"
+                    }
+                },
+                "OldImage": {
+                    "AuthorizationRequired": {
+                        "BOOL": false
+                    },
+                    "BenefitType": {
+                        "S": "HOSPICE"
+                    },
+                    "PK": {
+                        "S": "TENANT#570656#PAYER"
+                    },
+                    "PayerId": {
+                        "S": "730127"
+                    },
+                    "PayerName": {
+                        "S": "United Healthcare"
+                    },
+                    "PayerSubtype": {
+                        "S": "CI"
+                    },
+                    "PayerType": {
+                        "S": "COMMERCIAL"
+                    },
+                    "Plans": {
+                        "L": [
+                            {
+                                "M": {
+                                    "Address1": {
+                                        "S": "PO Box 30555"
+                                    },
+                                    "City": {
+                                        "S": "Salt Lake City"
+                                    },
+                                    "PlanName": {
+                                        "S": "PO Box 30555"
+                                    },
+                                    "State": {
+                                        "S": "UT"
+                                    },
+                                    "ZipCode": {
+                                        "S": "84130"
+                                    },
+                                    "ZipCodeExtension": {
+                                        "S": ""
+                                    }
+                                }
+                            },
+                            {
+                                "M": {
+                                    "Address1": {
+                                        "S": "PO Box 30551"
+                                    },
+                                    "City": {
+                                        "S": "Salt Lake City"
+                                    },
+                                    "PlanName": {
+                                        "S": "PO Box 30551"
+                                    },
+                                    "State": {
+                                        "S": "UT"
+                                    },
+                                    "ZipCode": {
+                                        "S": "84130"
+                                    },
+                                    "ZipCodeExtension": {
+                                        "S": ""
+                                    }
+                                }
+                            },
+                            {
+                                "M": {
+                                    "Address1": {
+                                        "S": "P.O. Box 30541"
+                                    },
+                                    "City": {
+                                        "S": "Salt Lake City"
+                                    },
+                                    "PlanName": {
+                                        "S": "UMR-UHC PPO"
+                                    },
+                                    "State": {
+                                        "S": "UT"
+                                    },
+                                    "ZipCode": {
+                                        "S": "84130"
+                                    },
+                                    "ZipCodeExtension": {
+                                        "S": ""
+                                    }
+                                }
+                            },
+                            {
+                                "M": {
+                                    "Address1": {
+                                        "S": "P.O. Box 740800"
+                                    },
+                                    "City": {
+                                        "S": "Atlanta"
+                                    },
+                                    "PlanName": {
+                                        "S": "UHC Atlanta"
+                                    },
+                                    "State": {
+                                        "S": "GA"
+                                    },
+                                    "ZipCode": {
+                                        "S": "30374"
+                                    },
+                                    "ZipCodeExtension": {
+                                        "S": ""
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "SK": {
+                        "S": "PAYER#730127"
+                    },
+                    "TenantId": {
+                        "N": "570656"
+                    }
+                },
+                "SequenceNumber": "1474629600000000033565366423",
+                "SizeBytes": 1186,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventID": "f8e2cbfad0bd6e46774184cc061dfe03",
+            "eventName": "MODIFY",
+            "eventSource": "aws:dynamodb",
+            "eventSourceARN": "arn:aws:dynamodb:us-west-2:904442064295:table/PatientBenefits/stream/2022-10-10T19:37:07.851",
+            "eventVersion": "1.1"
+        }
+    }
+]

@@ -1,0 +1,79 @@
+{
+    "HospiceEligibility": {
+        "HospiceBenefitElectionDate": "2023-08-01",
+        "RoutineHomeCareHighDaysUsed": null,
+        "AdmitBenefitPeriod": 1,
+        "PreviousHospiceStartDate": null,
+        "PreviousHospiceDischargeDate": null,
+        "DateOfFinalBill": null,
+        "AdmitBenefitPeriodStartDate": "2023-08-01"
+    },
+    "Financial": {
+        "Deductible": null,
+        "LimitAmount": null,
+        "MaxVisit": null,
+        "CoPay": null
+    },
+    "ReasonForHold": null,
+    "EligibilityVerified": true,
+    "PayerPrimacyLevel": "PRIMARY",
+    "Subscriber": {
+        "DateOfBirth": null,
+        "AdditionalInfo": null,
+        "FirstName": "Patient_1690384446561",
+        "ZipCode": null,
+        "GroupNumber": "123456789A",
+        "Address2": null,
+        "Address1": null,
+        "City": null,
+        "EmailAddress": null,
+        "ZipCodeExtension": null,
+        "MiddleInitial": null,
+        "State": null,
+        "SubscriberId": null,
+        "Relationship": "SELF",
+        "PhoneNumber": null,
+        "LastName": "Patient_1690384446561",
+        "IsVBID": true
+    },
+    "Status": "ACTIVE",
+    "Authorizations": null,
+    "ReadyToBill": "No",
+    "ChangesHistory": null,
+    "UpdatedDatetime": "2023-08-14T20:20:45.566268442Z",
+    "SK": "BENEFITS#ddc397cf-1ae3-4faa-9b38-f298232d8d01",
+    "CreatedDatetime": "2023-08-14T20:20:45.566268442Z",
+    "ExpiredDate": null,
+    "BenefitType": "HOSPICE",
+    "BenefitsVersion": 1,
+    "PayerName": "DEV Medicare A",
+    "BenefitsId": "ddc397cf-1ae3-4faa-9b38-f298232d8d01",
+    "PayerType": "MEDICARE",
+    "RoomAndBoardEligibility": {
+        "PatientLiability": [
+            {
+                "FromDate": null,
+                "ToDate": null,
+                "LiabilityAmount": 0,
+                "PatientLiability": true
+            }
+        ],
+        "AdmitBenefitPeriod": null,
+        "AdmitBenefitPeriodStartDate": null
+    },
+    "TenantId": 697190,
+    "PK": "TENANT#697190#PATIENTCHART#41783",
+    "EffectiveDate": "2023-08-01",
+    "PayerId": "745903",
+    "PatientChartId": 41783,
+    "Plan": {
+        "Address1": "100 Avenue A",
+        "City": "Norman",
+        "PlanName": "Medicare A",
+        "State": "OK",
+        "ZipCode": "73071",
+        "ZipCodeExtension": "1234"
+    },
+    "SubmittedClaims": null,
+    "PatientId": 203267
+}
