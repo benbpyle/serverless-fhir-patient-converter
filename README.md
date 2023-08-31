@@ -1,6 +1,6 @@
-# HealthLake Export Manager
+# Serverless FHIR Patient Converter
 
-Purpose: Working example of using AWS Step Functions, SQS, Lambda, S3 and EventBridge to manage scheduled exports of FHIR resources in AWS HealthLake.
+Purpose: Working example of using DynamoDB Streams, EventBridge Pipes and an Enrichment Lambda to convert a make-believe patient into a FHIR Patient.
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ First off, install [Node.js](https://nodejs.org/en)
 # install AWS CDK
 npm install -g aws-cdk
 # clone the repository
-cd healthlake-export-manager
+cd serverless-fhir-patient-converter
 npm install
 ```
 
@@ -32,8 +32,21 @@ cdk destroy
 
 ## Implementation
 
-For a further and in-depth review of how to use this repository and what it supports, head on over the [Blog Article](https://binaryheap.com) <Article not complete but under construction>
+You'll want to create a base patient record to work with. This one is a good sample.
 
-## State Machine
+```json
+{
+    "address": {
+        "state": "FL",
+        "city": "Tampa",
+        "address1": "453 Ralph Road",
+        "postalCode": "33612"
+    },
+    "id": "abc",
+    "birthDate": "07-13-1991",
+    "firstName": "John",
+    "lastName": "Smith"
+}
+```
 
-![State Machine](./workflow.svg)
+For a further and in-depth review of how to use this repository and what it supports, head on over the [Blog Article](https://www.binaryheap.com/dynamodb-eventbridge-pipes-enrichment/)
