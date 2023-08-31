@@ -105,37 +105,3 @@ func buildPatientEvent(r *events.DynamoDBEventRecord) (*PatientEvent, error) {
 	pe.Details.Body = fhirPatient
 	return pe, nil
 }
-
-// func BuildPayerEventPayload(r *Record) *PayerEvent {
-// 	i := r.StreamEvent.Change.NewImage
-// 	f := &fhir.Organization{}
-
-// 	if v, ok := i["PayerId"]; ok {
-// 		id := fmt.Sprintf("PAYER-%s", v.String())
-// 		f.Id = &id
-// 	} else {
-// 		return nil
-// 	}
-
-// 	if v, ok := i["PayerName"]; ok {
-// 		name := v.String()
-
-// 		f.Name = &name
-// 	} else {
-// 		return nil
-// 	}
-
-// 	return &PayerEvent{
-// 		Version:       "1.0",
-// 		Source:        "PayerFlow",
-// 		EventType:     "DataChange",
-// 		CorrelationId: ksuid.New().String(),
-// 		Details: struct {
-// 			Command string            `json:"command"`
-// 			Body    fhir.Organization `json:"entity"`
-// 		}{
-// 			Command: "PUT",
-// 			Body:    *f,
-// 		},
-// 	}
-// }
